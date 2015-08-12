@@ -15,7 +15,23 @@ app.use(methodOverride('_method'));
 
 app.set('view_engine', 'ejs');
 
+app.get('/',function(req,res) {
+	res.redirect('/cheeses');
+});
+
+app.get('/cheeses',function(req,res) {
+	//get all cheeses from db and render to ejs
+});
+
 app.listen(3000, function(){
     console.log('listening on port 3000!')
 });
+
+
+// git checkout -b get_cheeses_route 
+// //checkout switches the branch
+// //-b is the name of the branch
+
+// git branch
+// // shows all branches and puts a * next to current branch
 
