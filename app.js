@@ -26,12 +26,3 @@ app.get('/cheeses',function(req,res) {
 app.listen(3000, function(){
     console.log('listening on port 3000!')
 });
-
-
-// git checkout -b get_cheeses_route 
-// //checkout switches the branch
-// //-b is the name of the branch
-
-// git branch
-// // shows all branches and puts a * next to current branch
-
