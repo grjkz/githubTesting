@@ -1,0 +1,1 @@
+This is a test to create a beta version branch on github, seperate from the master branch which should hold a working version.
